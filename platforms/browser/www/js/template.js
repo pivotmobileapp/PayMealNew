@@ -2762,6 +2762,7 @@ accountMenu = function(login){
 		html+='</ons-list-item>';
 		}
 		
+			
 	}
 
 	
@@ -2772,10 +2773,10 @@ accountMenu = function(login){
 	        html+='<div class="center">' + t('Notifications') +  '</div>';
 	      html+='</ons-list-item>';
 		
-	      html+='<ons-list-item modifier="chevron" tappable onclick="showPage(\'order_list.html\')" >';
+/* 	      html+='<ons-list-item modifier="chevron" tappable onclick="showPage(\'order_list.html\')" >';
 	        html+='<div class="left"><img src="lib/icons/order-history.svg" onerror="this.src=\'order-history.png\'"></div>';
 	        html+='<div class="center">' + t('Order History') +  '</div>';
-	      html+='</ons-list-item>';
+	      html+='</ons-list-item>'; */
 	      
 	      if(app_settings.merchant_tbl_book_disabled!=2){
 	      html+='<ons-list-item modifier="chevron" tappable  onclick="showPage(\'booking_history.html\')" >';
