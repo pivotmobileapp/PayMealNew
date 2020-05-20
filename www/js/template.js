@@ -2746,7 +2746,7 @@ accountMenu = function(login){
 			    html+='<img src="lib/icons/car.svg" onerror="this.src=\'car.png\'">';
 			  html+='</div>';
 			  html+='<div class="center">';
-			    html+= t('Be a deliveryman');
+			    html+= t('Be a PayMeal Driver');
 			  html+='</div>';
 			html+='</ons-list-item>';
 		}

@@ -14,11 +14,9 @@
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-plugin-geolocation" source="npm" />
     <gap:plugin name="cordova-plugin-network-information" source="npm" />
-    <gap:plugin source="git" spec="https://github.com/techaffinity/freshchat-phonegap" />
-    <gap:plugin source="git" spec="https://github.com/dpa99c/cordova-android-support-gradle-release" />
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2" />
     <gap:plugin source="git" spec="https://github.com/bastikikang/cordova-plugin-request-location-accuracy">
-        <variable name="PLAY_SERVICES_VERSION" value="15.0.0" />
+        <variable name="PLAY_SERVICES_VERSION" value="11.0.1" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-x-toast" source="npm" spec="2.7.0" />
     <gap:plugin name="cordova-plugin-media" source="npm" spec="5.0.2" />
@@ -28,7 +26,7 @@
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.7.1" />
     <gap:plugin name="cordova-plugin-googleplus" source="npm" spec="7.0.2">
         <variable name="REVERSED_CLIENT_ID" value="" />
-        <variable name="PLAY_SERVICES_VERSION" value="15.0.0" />
+        <variable name="PLAY_SERVICES_VERSION" value="11.0.1" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-facebook4" source="npm" spec="5.0.0">
         <variable name="APP_ID" value="2716575325030499" />
