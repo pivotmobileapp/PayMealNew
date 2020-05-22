@@ -2750,7 +2750,17 @@ accountMenu = function(login){
 			  html+='</div>';
 			html+='</ons-list-item>';
 		}
-
+		
+	    if(app_settings.contact_us.enabled_contact){
+		html+='<ons-list-item tappable modifier="chevron" onclick="showPage(\'contact_us.html\');" >';
+		  html+='<div class="left">';
+		    html+='<img src="lib/icons/mail.svg" onerror="this.src=\'mail.png\'">';
+		  html+='</div>';
+		  html+='<div class="center">';
+		    html+= t('Contact Us');
+		  html+='</div>';
+		html+='</ons-list-item>';
+		}
 		
 			
 	}
