@@ -4871,6 +4871,26 @@ createAccountFields = function(){
 	       		html+='<img class="stic-icon" src="lib/icons/mail.svg" onerror="this.src=\'mail.png\'">';       			
        		html+='</div>';
 	    html+='</ons-list-item>';
+	}
+	
+	if(settings.registration.country_list){
+	    html+='<ons-list-item>   ';     
+		  html+=`
+		  <ons-select name="country" style="width:100%;margin: 0px 20px;" id="choose-sel" onchange="setCountry(event)">
+		  <option disabled selected value="null">Select Country</option>
+		  `;
+		  for (var key in settings.registration.country_list) {
+			if (settings.registration.country_list.hasOwnProperty(key)) {
+				
+				//console.log(key + " -> " + settings.registration.country_list[key]);
+				html+='<option value="'+key+'">'+settings.registration.country_list[key]+'</option>';
+			}
+			} 
+			html+=`
+			
+				</ons-select> 
+			`;
+	    html+='</ons-list-item>';
     }
     
     html+='<ons-list-item>   ';     

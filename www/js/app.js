@@ -9292,5 +9292,7 @@ setCloseMerchant = function () {
 		}
 	}
 };
-
+var setCountry = function(e){
+	console.log(e.value);
+}
 /*END OF SCRIPT*/
